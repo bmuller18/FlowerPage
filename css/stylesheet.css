@@ -1,0 +1,29 @@
+body{
+    
+}
+p{
+    color: red !important;
+    padding: 15px;
+    border: 10px solid grey;
+    margin: 50px;
+}
+
+table, tr, td, th{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 1px 9px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 2px;
+    background-color: ;
+  }
