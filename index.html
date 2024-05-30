@@ -1,59 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>University</title>
-    <link rel="stylesheet" href="css/stylesheet.css" />
-  </head>
-  <body>
-    
-    /**
- * v0 by Vercel.
- * @see https://v0.dev/t/1YmiTw7SxGh
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-import Link from "next/link"
-
-export default function Component() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-[100dvh] bg-gray-100 dark:bg-gray-900 py-12 md:py-24">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-8">
-          <div className="relative w-40 h-40 rounded-full overflow-hidden">
-            <img src="/placeholder.svg" alt="Hero" className="w-full h-full object-cover" />
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-md">
-            <Link
-              href="#"
-              className="inline-flex items-center justify-center h-12 px-6 rounded-md bg-gray-900 text-gray-50 font-medium transition-colors hover:bg-gray-900/90 focus:outline-none focus:ring-2 focus:ring-gray-950 focus:ring-offset-2 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus:ring-gray-300"
-              prefetch={false}
-            >
-              Whatsapp
-            </Link>
-            <Link
-              href="#"
-              className="inline-flex items-center justify-center h-12 px-6 rounded-md bg-gray-900 text-gray-50 font-medium transition-colors hover:bg-gray-900/90 focus:outline-none focus:ring-2 focus:ring-gray-950 focus:ring-offset-2 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus:ring-gray-300"
-              prefetch={false}
-            >
-              Instagram
-            </Link>
-            <Link
-              href="#"
-              className="inline-flex items-center justify-center h-12 px-6 rounded-md bg-gray-900 text-gray-50 font-medium transition-colors hover:bg-gray-900/90 focus:outline-none focus:ring-2 focus:ring-gray-950 focus:ring-offset-2 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus:ring-gray-300"
-              prefetch={false}
-            >
-              Biography
-            </Link>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">
+            <img src="profile.jpg" alt="Profile Image">
         </div>
-      </div>
+        <div class="button-container">
+            <button>Whatsapp</button>
+            <button>Instagram</button>
+            <button>Biography</button>
+        </div>
     </div>
-  )
-}
-
-  </body>
+</body>
 </html>
-
-
